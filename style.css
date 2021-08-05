@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+:root{
+    --pink:#FF5C87;
+    --purple:#923AFF;
+    --blue:#4464FF;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    transition: .5s ease-in;
+    font-family: Poppins,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: #fff;
+    color: #333;
+}
+body > nav{
+    background-color: #ffffffdc;
+    backdrop-filter: blur(3px);
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr 1fr 1fr 1fr;
+    padding: 2.5vh 0;
+    position: sticky;
+    top: 0;
+}
+body > nav > div{
+    display: grid;
+    place-content: center;
+    font-weight: 500;
+}
+body > nav > div:nth-child(1) > img{
+    width: 3vw;
+    padding: 1vh 0;
+
+}
+
+body > section.home > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+body > section.home > div > div{
+    /* border: .5px solid lime; */
+    display: grid;
+    place-content: center;
+}
+
+
+body > section.home > div > div:nth-child(1){
+    margin-left: 5vw;
+}
+body > section.home > div > div:nth-child(1) > div.colored-text {
+    padding: 1.5vh 0;
+}
+body > section.home > div > div:nth-child(1) > div.colored-text > h1{
+    background:linear-gradient(90deg ,var(--blue) 5%,var(--purple) 20%,var(--pink) 65%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    font-weight: 600;
+
+}
+body > section.home > div > div:nth-child(1) > div.colored-text >p{
+    color: #595959;
+    font-size: 15px;
+}
+body > section.home > div > div:nth-child(1) > div.inputs{
+    padding: 2vh 0 ;
+}
+
+body > section.home > div > div:nth-child(1) > div.inputs > input{
+    border: none;
+    background-color: #F6F6F5;
+    padding: 1.5vh 1.5vw;
+    border-radius: 10px;
+
+}
+body > section.home > div > div:nth-child(1) > div.inputs > input:placeholder-shown{
+  color: #aaa;
+}
+body > section.home > div > div:nth-child(1) > div:nth-child(3){
+    
+}
+body > section.home > div > div:nth-child(1) > div:nth-child(3) > button{
+    background-color: #0A7CFF;
+    border: none;
+    padding: 2vh 2vw;
+    border-radius: 50px;
+    color: white;
+    font-weight: 700;
+}
+body > section.home > div > div:nth-child(1) > div:nth-child(3) > button:hover{
+    background-color:#4D4DFF ;
+}
+
+body > section.home > div > div:nth-child(1) > div:nth-child(3) > a {
+    color:#0A7CFF ;
+    font-size: 12px;
+    font-weight: 600;
+    padding:  0 2.5vw;
+}
+body > section.home > div > div:nth-child(1) > label{
+    color: #5f5f5f;
+    padding: 1vh 0;
+}
+
+body > section.home > div > div:nth-child(2){
+
+}
+
+
+body > section.home > div > div:nth-child(2) > img{
+    height: 95vh;
+    margin: 10vh 0 0 0;
+} 
+
+body > section.home > div:nth-child(2){
+    background:linear-gradient(90deg ,var(--blue),var(--purple),var(--pink));
+    display: grid;
+    place-content: ceneter;
+    color: white;
+    text-align: center;
+    max-width: 100vw;
+    height: 12.5vh;
+    position: sticky;
+    bottom: 0;
+}
+body > section.home > div:nth-child(2) > p{
+    width: 90vw;
+    padding: 2.5vh 0;
+    font-size: 15px;
+    margin: auto auto;
+}
+body > section.home > div:nth-child(2) > p > img{
+    text-align: center;
+    justify-content: center;
+    width: 7vw;
+}
+body > section.home > div:nth-child(2) > p > a{
+    color: #fff;
+}
+
+
+body > footer {
+    font-size: 13px;
+    display: grid;
+    place-content: center;
+    grid-template-columns: 5fr 1fr 1fr 1fr 1fr;
+    height: 12vh;
+    max-width: 90vw;
+    margin: auto auto;
+}
+body > footer > :nth-child(n){
+    text-align: center;
+}
