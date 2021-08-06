@@ -162,4 +162,6 @@ body > footer {
 }
 body > footer > :nth-child(n){
     text-align: center;
+    margin: auto auto;
+    padding: 1vh 0;
 }
