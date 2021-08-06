@@ -22,7 +22,7 @@ body {
 }
 body > nav{
     background-color: #ffffffdc;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
     display: grid;
     grid-template-columns: 2fr 3fr 1fr 1fr 1fr 1fr;
     padding: 2.5vh 0;
@@ -60,12 +60,14 @@ body > section.home > div > div:nth-child(1) > div.colored-text {
     padding: 1.5vh 0;
 }
 body > section.home > div > div:nth-child(1) > div.colored-text > h1{
-    background:linear-gradient(90deg ,var(--blue) 5%,var(--purple) 20%,var(--pink) 65%);
+    background:linear-gradient(90deg ,var(--blue) 5%,var(--purple) 20%, var(--pink) 50%,red 95%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 600;
+    line-height: 85px;
+    letter-spacing:-4.5px;
 
 }
 body > section.home > div > div:nth-child(1) > div.colored-text >p{
