@@ -16,7 +16,7 @@
         display: none;
     }
     body > section.home > div > div:nth-child(1) > div.colored-text{
-        padding: 20vh 0 20vh 0;
+        padding: 15vh 0 15vh 0;
     }
     body > section.home > div > div:nth-child(1) > div.colored-text > h1{
         font-size:50px;
@@ -71,9 +71,41 @@ body > section.home > div > div > div:nth-child(3) ~ label{
     font-size: 12px;
     margin: 0 0 0 5vw;
 }
+body > section.home > div:nth-child(2){
+    height: 25vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+}
+body > section.home > div:nth-child(2) > p{
+   font-size:18px;
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+   align-items: center;
+}
+body > section.home > div:nth-child(2) > p > :nth-child(1){
+    font-size:16px;
+    display: grid;
+    width: 25vw;
+    margin: auto auto;
+}
+body > footer {
+    font-size: 13px;
+    display: grid;
+    place-content: center;
+    grid-template-columns: none;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    height: 12vh;
+    max-width: 90vw;
+    margin: auto auto;
+}
+body > footer > :nth-child(n){
+    text-align: center;
 
-
-
+}
+body > footer > img{
+    text-align: center;
+}
 
 
 
