@@ -1,2 +1,4 @@
-# messenger-clone
-Built messenger.com's frontend clone using only html and css. Working hard to make it 99.99% accurate!
+# Messenger Clone <br>
+Messenger frontend clone using only `HTML` and `CSS`. <br>
+It was first full page clone of my life.
+Worked Hard 1hrs and 38 mins to build it.
